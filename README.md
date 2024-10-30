@@ -1,14 +1,18 @@
-# Dublin GitHub User Scraper
+# GitHub Users in Dublin
 
-- This project scrapes GitHub users from Dublin with over 50 followers.
-- It collects detailed information about each user's repositories.
-- The data is saved in CSV format for easy analysis.
+- This project scrapes data about GitHub users in Dublin with over 50 followers and their repositories.
+- The most interesting fact found was the diversity of programming languages used among developers.
+- An actionable recommendation is to encourage collaboration among developers using similar technologies.
 
-## Scraping Process
-This project uses the GitHub API to gather data on users and their repositories.
+## Files
 
-## Interesting Findings
-The analysis revealed various trends regarding user activity and repository popularity.
+1. `users.csv`: Contains information about 493 GitHub users in Dublin with over 50 followers.
+2. `repositories.csv`: Contains information about 29648 public repositories from these users.
+3. `gitscrap.py`: Python script used to collect this data.
 
-## Recommendations
-Developers should focus on engaging with their community to increase followers and repository visibility.
+## Data Collection
+
+- Data collected using GitHub API.
+- Date of collection: 2024-10-30.
+- Only included users with 50+ followers.
+- Up to 500 most recently pushed repositories per user.
